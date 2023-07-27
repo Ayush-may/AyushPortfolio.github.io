@@ -57,8 +57,11 @@ p{
 }
 
 .nav-link button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     width: 120px;
     height: 30px;
     border: none;
@@ -156,6 +159,11 @@ p{
 /* Responsive Desgin */
 
 @media (max-width: 1024px) {
+
+    .nav-link button{
+        width: 110px;
+        height: 30px;
+    }
 
     .nav-link p{
         font-size: 25px;
